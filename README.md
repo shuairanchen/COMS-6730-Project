@@ -22,6 +22,16 @@
 - You could find the "PGD Attack Demo.mp4" file under the link folder which showed our PGD Attack worked, and how to run the code：
 - https://drive.google.com/drive/folders/1LCDbRsVFyJXFq2XfSf1YkDt8tXx_cKdZ?usp=drive_link
 
+# PGD Attack Function
+- For PGD attack, you could just run the attack_and_show_image() function with the follow parameters:
+- model: YoloV8 model with weights loaded
+- image_path: path to the input image file (string)
+- epsilon: maximum range of adversarial perturbation
+- alpha: step size for updating adversarial perturbation in each iteration
+- num_iter: number of iterations of adversarial attack
+- class_range: list of all class names that the model can detect
+- If your model target class is different with our dataset, you need change the parameter "target_class" in the pgd_attack() function to your target class index of the model
+
 # How to run the code
 - Dependency : python 3.12
 - Install the required libraries using the following command
