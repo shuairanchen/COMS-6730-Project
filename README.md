@@ -8,6 +8,8 @@
 
 # Base Model Training
 - You could use the Third Cell in the Code which has model.train() function to training the base model by yourself
+- If you don't want training the model, you could get the model weights we trained by the following links：
+- https://drive.google.com/drive/folders/1LCDbRsVFyJXFq2XfSf1YkDt8tXx_cKdZ?usp=drive_link
 
 # Code Files
 - CustomPGDAttack.ipynb (Our PGD Attack on the Base Model for No Person)
@@ -17,7 +19,8 @@
 - abstraction folder demonstrates the abstraction based attack
 
 # Video Demo
-- This is for show our PGD Attack worked, and how to run the code
+- You could find the "PGD Attack Demo.mp4" file under the link folder which showed our PGD Attack worked, and how to run the code：
+- https://drive.google.com/drive/folders/1LCDbRsVFyJXFq2XfSf1YkDt8tXx_cKdZ?usp=drive_link
 
 # How to run the code
 - Dependency : python 3.12
