@@ -1,5 +1,14 @@
 # COMS-6730-Project
 
+# Dataset
+- Person Detection Model Dataset:
+- https://www.kaggle.com/datasets/laundaactive/person-detection-yolov8n-dectection
+- 26 Class Model Dataset:
+- https://www.kaggle.com/datasets/mohamedgobara/26-class-object-detection-dataset
+
+# Base Model Training
+- You could use the Third Cell in the Code which has model.train() function to training the base model by yourself
+
 # Code Files
 - CustomPGDAttack.ipynb (Our PGD Attack on the Base Model for No Person)
 - ADVTraining.ipynb (Our PGD Attack on the Advarsarial Model for No Person)
